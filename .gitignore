@@ -1,1 +1,3 @@
+.gitignore
 modules/
+*.swp
