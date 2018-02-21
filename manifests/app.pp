@@ -1,5 +1,5 @@
 node 'node1' {
-    include base
+    #include base
     
     class { '::tomcat' :
         user    => 'tomcat',
@@ -20,7 +20,7 @@ node 'node1' {
 
 node 'node2' {
 
-    include base
+   # include base
 
     class { '::tomcat' :
         user    => 'tomcat',
